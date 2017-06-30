@@ -13,18 +13,30 @@
       margin: auto
     }
       .jumbotron {
-        background-color: #deff00;
+        background-color: #2fdbff;
 
-      }
+      } 
+      footer {
+    padding: 1em;
+    color: #000000;
+    background-color: #fbbfff;
+    clear: left;
+    text-align: center;
+}
+
       body {
         font-size: 16px;
       }
 
-    </style>
+    </style> 
+
+
 
   </head>
   
   <body>
+    
+
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -50,6 +62,9 @@
         <div class="jumbotron">
          <h2> the concepts of co-ordinating statistical tools with the use of programming language.</h2>
          <p><i> i  like to think and solve problems</i></p>
+        
+</div>
+
          <p> </p>
        </div>
      </div>
@@ -124,10 +139,40 @@
        <h2> OBJECTIVE: Execute software progect task and do follow up on project and software testing,according to rules and UTF-8 procedures,
             in order to ensure legal compliance and keep a strict control over inntellectual resources resources..
        </h2>
-       <p> <i>  like to think and solve problems</i></p>
-       <p> </p>
+       <p> <i>  like to think and solve problems</i>
+       <div class="container">
+       </p> <button type="button" class="btn btn-danger">subscribe.....</button>
+       </div>
+       <div class="container">
+  <h2>Sign-up</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+         <div class= "container">
+  <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">GO up</a>
+</div>
+
+
       </div>
-   </div>
+      <footer>Copyright &copy; chibaba.ng</footer>
+
+</div>
+
+
+
 
 
 
@@ -146,6 +191,10 @@
 
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
+ <script src="js/bootstrap.min.js">
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+    </script>
 </body>
 </html>
